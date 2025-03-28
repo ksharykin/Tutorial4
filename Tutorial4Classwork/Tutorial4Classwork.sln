@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.Models",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.Application", "src\Tutorial4Classwork.Application\Tutorial4Classwork.Application.csproj", "{75FD8707-2045-463F-AA51-18F4C11C92B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.UnitTests", "tests\Tutorial4Classwork.UnitTests\Tutorial4Classwork.UnitTests.csproj", "{A7CE6E5C-CFB0-4923-B5C8-551159A976AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{75FD8707-2045-463F-AA51-18F4C11C92B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75FD8707-2045-463F-AA51-18F4C11C92B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75FD8707-2045-463F-AA51-18F4C11C92B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CE6E5C-CFB0-4923-B5C8-551159A976AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CE6E5C-CFB0-4923-B5C8-551159A976AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CE6E5C-CFB0-4923-B5C8-551159A976AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CE6E5C-CFB0-4923-B5C8-551159A976AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
