@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.Demonstration", "src\Tutorial4Classwork.Demonstration\Tutorial4Classwork.Demonstration.csproj", "{5C904601-4F9D-421C-8316-F261908AD46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.Models", "Tutorial4Classwork.Models\Tutorial4Classwork.Models.csproj", "{A03857F1-D3F5-4698-8ACE-462618C055EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.Models", "src\Tutorial4Classwork.Models\Tutorial4Classwork.Models.csproj", "{A03857F1-D3F5-4698-8ACE-462618C055EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Classwork.Application", "src\Tutorial4Classwork.Application\Tutorial4Classwork.Application.csproj", "{75FD8707-2045-463F-AA51-18F4C11C92B8}"
 EndProject

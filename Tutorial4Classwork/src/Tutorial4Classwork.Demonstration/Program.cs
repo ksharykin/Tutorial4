@@ -4,4 +4,11 @@ var clientService = new ClientService();
 
 Console.WriteLine($"Average balance: {clientService.CalculateAverageBalance()}");
 var client = clientService.FindClientWithMaxBalance();
-Console.WriteLine($"Person with biggest balance: {client.Fullname}");
+if (client is null)
+{
+    Console.WriteLine($"Person with biggest balance is not found.");
+}
+else
+{
+    Console.WriteLine($"Person with biggest balance: {client.Fullname}");   
+}

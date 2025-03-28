@@ -1,4 +1,6 @@
-﻿using Tutorial4Classwork.Models;
+﻿
+
+using Tutorial4Classwork.Models;
 
 namespace Tutorial4Classwork.Application;
 
@@ -30,9 +32,5 @@ public class ClientService
 
     public decimal CalculateAverageBalance() => _clients.Average(c => c.Balance);
 
-    public Client FindClientWithMaxBalance()
-    {
-        var maxBalance = _clients.Max(c => c.Balance);
-        return _clients.First(c => c.Balance == maxBalance);
-    }
+    public Client? FindClientWithMaxBalance() => _clients.MaxBy(c => c.Balance);
 }

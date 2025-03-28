@@ -10,6 +10,13 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Tutorial4Classwork.Models\Tutorial4Classwork.Models.csproj" />
       <ProjectReference Include="..\Tutorial4Classwork.Application\Tutorial4Classwork.Application.csproj" />
+      <ProjectReference Include="..\Tutorial4Classwork.Models\Tutorial4Classwork.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
