@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Tutorial4Classwork.Application;
 
-Console.WriteLine("Hello, World!");
+var clientService = new ClientService();
+
+Console.WriteLine($"Average balance: {clientService.CalculateAverageBalance()}");
+var client = clientService.FindClientWithMaxBalance();
+Console.WriteLine($"Person with biggest balance: {client.Fullname}");
